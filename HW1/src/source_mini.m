@@ -1,0 +1,10 @@
+data = csvread('diabetes.csv');
+class = data(:,1);
+data(:,1) = [];
+stand = (data - mean(data)) ./ std(data);
+[V,D] = eig(cov(stand));
+[~, I] = sort(diag(D), 'descend');
+p_1 = stand * V(:, I(1));
+p_2 = stand * V(:, I(2));
+plot(p_1(class == 1), p_2(class == 1), 'ro', p_1(class == -1), p_2(class == -1), 'bx');
+title('PCA');
