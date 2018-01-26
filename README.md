@@ -1,47 +1,32 @@
-## Drexel - Machine Learning
-This repository contents the course work for Machine Learning at Drexel.
+# Drexel - Machine Learning
+CS 383 Machine Learning @ Drexel winter 2017
 
----
-### Exam Review Notes
-- [Midterm Review](./ExamReview/Midterm/MidtermReview.md)
-- [Final Reveiw](./ExamReview/Final/final.md)
+## Exam Review Notes
+- [Midterm](./ExamReview/Midterm/MidtermReview.md)
+- [Final](./ExamReview/Final/final.md)
 
----
-### Homework 1
+## [Homework 1](./HW1)
 - Visualizing Data
 - Dimensionality Reducing (PCA)
-- [Link](./HW1)
 
----
-### Homework 2
+## [Homework 2](./HW2)
 - Clustering using k-means
-- [Link](./HW2)
 
----
-### Homework 3
+## [Homework 3](./HW3)
 - Closed Form Linear Regression
 - S-Folds Cross Validation
-- [Link](./HW3)
 
----
-### Homework 4
+## [Homework 4](./HW4)
 - Gradient Descent
-- [Link](./HW4)
 
----
-### Homework 5 and 6
+## [Homework 5 and 6](./HW5&6)
 - k-Nearest Neighbors
-- [Link](./HW5&6)
 
----
-### Homework 7
+## [Homework 7](./HW7)
 - Support Vector Machines
 - Multi-Class Support Vector Machines
-- [Link](./HW7)
 
----
-### Homework 8
+## [Homework 8](./HW8)
 - Artificial Neural Networks
 - The Precision-Recall Tradeoff
 - Multi-Class Artificial Neural Networks
-- [Link](./HW8)
